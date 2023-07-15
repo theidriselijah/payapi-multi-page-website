@@ -1,1 +1,45 @@
-<svg width="605" height="444" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><filter x="-24.2%" y="-37.9%" width="159.6%" height="193.3%" filterUnits="objectBoundingBox" id="a"><feOffset dx="25" dy="25" in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur stdDeviation="40" in="shadowOffsetOuter1" result="shadowBlurOuter1"/><feColorMatrix values="0 0 0 0 0.212302148 0 0 0 0 0.325209598 0 0 0 0 0.419299139 0 0 0 0.300726617 0" in="shadowBlurOuter1"/></filter><rect id="b" x="0" y="0" width="445" height="284" rx="8"/></defs><g fill="none" fill-rule="evenodd"><g transform="translate(55 55)"><use fill="#000" filter="url(#a)" xlink:href="#b"/><use fill="#1B262F" xlink:href="#b"/></g><path d="M63 55h429a8 8 0 018 8v32H55V63a8 8 0 018-8z" fill="#2E3F4D"/><g transform="translate(71 67)"><circle fill="#BA4270" cx="8" cy="8" r="8"/><circle fill="#527695" cx="30.4" cy="8" r="8"/><circle fill="#36536B" cx="52.8" cy="8" r="8"/></g><text font-family="RobotoMono-Regular, Roboto Mono" font-size="13" fill="#FBFCFE" transform="translate(55 55)"><tspan x="32" y="86">&lt;form id=&quot;form-id&quot; method=&quot;GET&quot;&gt; &lt;/form&gt;</tspan> <tspan x="32" y="106">&lt;script</tspan> <tspan x="32" y="126"> src=&quot;https://loremipsum.com/api.js&quot;</tspan> <tspan x="32" y="146"> data-client-name=&quot;Your Company&apos;s Name&quot;</tspan> <tspan x="32" y="166"> data-form-id=&quot;form-id&quot;</tspan> <tspan x="32" y="186"> data-key=&quot;test_key&quot;</tspan> <tspan x="32" y="206"> data-product=&quot;transactions&quot;</tspan> <tspan x="32" y="226"> data-env=&quot;sandbox&quot;&gt;</tspan> <tspan x="32" y="246">&lt;/script&gt;</tspan></text></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 445 283" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-55,-56)">
+        <g transform="matrix(1,0,0,1,55,55)">
+            <path id="b" d="M445,8C445,3.585 441.415,0 437,0L8,0C3.585,0 0,3.585 0,8L0,276C0,280.415 3.585,284 8,284L437,284C441.415,284 445,280.415 445,276L445,8Z"/>
+            <path id="b1" serif:id="b" d="M445,8C445,3.585 441.415,0 437,0L8,0C3.585,0 0,3.585 0,8L0,276C0,280.415 3.585,284 8,284L437,284C441.415,284 445,280.415 445,276L445,8Z" style="fill:rgb(27,38,47);"/>
+        </g>
+        <path d="M63,55L492,55C496.389,55 500,58.611 500,63L500,95L55,95L55,63C55,58.611 58.611,55 63,55Z" style="fill:rgb(46,63,77);"/>
+        <g transform="matrix(1,0,0,1,71,67)">
+            <circle cx="8" cy="8" r="8" style="fill:rgb(186,66,112);"/>
+            <circle cx="30.4" cy="8" r="8" style="fill:rgb(82,118,149);"/>
+            <circle cx="52.8" cy="8" r="8" style="fill:rgb(54,83,107);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,55,55)">
+            <g transform="matrix(1,0,0,1,32,86)">
+                <text x="0px" y="0px" style="font-family:'Helvetica';font-size:13px;fill:rgb(251,252,254);">&lt;form id=&quot;form-id&quot; method=&quot;GET&quot;&gt; &lt;/form&gt;</text>
+            </g>
+            <g transform="matrix(1,0,0,1,32,106)">
+                <text x="0px" y="0px" style="font-family:'Helvetica';font-size:13px;fill:rgb(251,252,254);">&lt;script</text>
+            </g>
+            <g transform="matrix(1,0,0,1,32,126)">
+                <text x="0px" y="0px" style="font-family:'Helvetica';font-size:13px;fill:rgb(251,252,254);">src=&quot;https://loremipsum.com/api.js&quot;</text>
+            </g>
+            <g transform="matrix(1,0,0,1,32,146)">
+                <text x="0px" y="0px" style="font-family:'Helvetica';font-size:13px;fill:rgb(251,252,254);">data-client-name=&quot;Y<tspan x="116.511px 123.741px " y="0px 0px ">ou</tspan>r Company&apos;s Name&quot;</text>
+            </g>
+            <g transform="matrix(1,0,0,1,32,166)">
+                <text x="0px" y="0px" style="font-family:'Helvetica';font-size:13px;fill:rgb(251,252,254);">data-form-id=&quot;form-id&quot;</text>
+            </g>
+            <g transform="matrix(1,0,0,1,32,186)">
+                <text x="0px" y="0px" style="font-family:'Helvetica';font-size:13px;fill:rgb(251,252,254);">data-key=&quot;test_key&quot;</text>
+            </g>
+            <g transform="matrix(1,0,0,1,32,206)">
+                <text x="0px" y="0px" style="font-family:'Helvetica';font-size:13px;fill:rgb(251,252,254);">data-product=&quot;transactions&quot;</text>
+            </g>
+            <g transform="matrix(1,0,0,1,32,226)">
+                <text x="0px" y="0px" style="font-family:'Helvetica';font-size:13px;fill:rgb(251,252,254);">data-env=&quot;sandbox&quot;&gt;</text>
+            </g>
+            <g transform="matrix(1,0,0,1,32,246)">
+                <text x="0px" y="0px" style="font-family:'Helvetica';font-size:13px;fill:rgb(251,252,254);">&lt;/script&gt;</text>
+            </g>
+        </g>
+    </g>
+</svg>
