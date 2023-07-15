@@ -11,7 +11,7 @@ export default function NavBar() {
                 width={135}
             />
         </div>
-        <div>
+        <div className="cursor-pointer">
             <Image 
                 src="/assets/shared/mobile/menu.svg"
                 alt="menu-icon"
