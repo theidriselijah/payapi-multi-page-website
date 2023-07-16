@@ -26,7 +26,7 @@ export default function Home() {
             </h1>
             <DemoReqForm />
             <p className="font-public text-[15px] text-center">
-              Have any questions?{' '}
+              Have any questions?
               <Link href="/contact" className="hover:opacity-50">
                 <strong>Contact Us</strong>
               </Link>

@@ -12,5 +12,5 @@ module.exports = {
         display: ['var(--font-serif)', 'serif']
       }
     }
-  }
+  },
 }
