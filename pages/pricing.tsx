@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export default function Pricing() {
   return (
-    <div>
+    <div className="bg-[#EDF3F8]">
       <div>
         <NavBar />
         <div className="flex flex-col justify-center items-center text-center px-6">
