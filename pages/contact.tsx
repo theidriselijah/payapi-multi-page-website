@@ -14,52 +14,50 @@ export default function Contact() {
           </h1>
         </div>
         <div className="mx-6 mt-10 mb-6">
-          <form className="flex flex-col gap-y-[24px]">
-            <input
-              type="text"
-              name="name"
-              placeholder="Name"
-              className="w-[327px] h-[42px] px-[20px] pb-[17px] border-b-[1px] border-[#36536B]/[.50] bg-[#EDF3F8]"
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="Email Address"
-              className="w-[327px] h-[42px] px-[20px] pb-[17px] border-b-[1px] border-[#36536B]/[.50] bg-[#EDF3F8]"
-            />
-            <input
-              type="text"
-              name="company-name"
-              placeholder="Company Name"
-              className="w-[327px] h-[42px] px-[20px] pb-[17px] border-b-[1px] border-[#36536B]/[.50] bg-[#EDF3F8]"
-            />
-            <input
-              type="text"
-              name="title"
-              placeholder="Title"
-              className="w-[327px] h-[42px] px-[20px] pb-[17px] border-b-[1px] border-[#36536B]/[.50] bg-[#EDF3F8]"
-            />
-            <textarea
-              name="message"
-              placeholder="Message"
-              className="w-[327px] h-[89px] px-[20px] border-b-[1px] border-[#36536B]/[.50] bg-[#EDF3F8] resize-none"
-            />
-            <div className="flex justify-center items-center">
-              <div>
-                <input
-                  type="checkbox"
-                  id="subscribe"
-                  className=""
-                />
-              </div>
-              <div>
-                <label
-                  htmlFor="subscribe"
-                  className="text-[#36536B] font-public text-[15px] leading-[25px]"
-                >
-                  Stay up-to-date with company announcements and updates to our
-                  API
-                </label>
+          <form className="">
+            <div className='flex flex-col justify-center items-center gap-y-[24px]'>
+              <input
+                type="text"
+                name="name"
+                placeholder="Name"
+                className="w-full h-[42px] px-[20px] pb-[17px] border-b-[1px] border-[#36536B]/[.50] bg-[#EDF3F8]"
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Email Address"
+                className="w-full h-[42px] px-[20px] pb-[17px] border-b-[1px] border-[#36536B]/[.50] bg-[#EDF3F8]"
+              />
+              <input
+                type="text"
+                name="company-name"
+                placeholder="Company Name"
+                className="w-full h-[42px] px-[20px] pb-[17px] border-b-[1px] border-[#36536B]/[.50] bg-[#EDF3F8]"
+              />
+              <input
+                type="text"
+                name="title"
+                placeholder="Title"
+                className="w-full h-[42px] px-[20px] pb-[17px] border-b-[1px] border-[#36536B]/[.50] bg-[#EDF3F8]"
+              />
+              <textarea
+                name="message"
+                placeholder="Message"
+                className="w-full h-[89px] px-[20px] border-b-[1px] border-[#36536B]/[.50] bg-[#EDF3F8] resize-none"
+              />
+              <div className="flex justify-center items-center">
+                <div>
+                  <input type="checkbox" id="subscribe" className="" />
+                </div>
+                <div className="ml-[32px]">
+                  <label
+                    htmlFor="subscribe"
+                    className="text-[#36536B] font-public text-[15px] leading-[25px]"
+                  >
+                    Stay up-to-date with company announcements and updates to
+                    our API
+                  </label>
+                </div>
               </div>
             </div>
             <button className="w-[152px] h-[48px] text-[#36536B] border-[#36536B] border-[1px] rounded-3xl mb-12 hover:border-[#36536B] hover:bg-[#36536B] hover:text-[#FFFFFF]">
@@ -67,9 +65,11 @@ export default function Contact() {
             </button>
           </form>
         </div>
-        <div className='text-center mx-6'>
+        <div className="text-center mx-6">
           <div>
-            <h3 className='text-[#36536B] font-display text-[24px] leading-8 opacity-75 mb-8'>Join the thousands of innovators already building with us</h3>
+            <h3 className="text-[#36536B] font-display text-[24px] leading-8 opacity-75 mb-8">
+              Join the thousands of innovators already building with us
+            </h3>
             <div>
               <div className="flex justify-center items-center">
                 <Image

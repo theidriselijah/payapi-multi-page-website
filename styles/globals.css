@@ -7,3 +7,34 @@
     margin: 0;
     padding: 0;
 }
+
+input[type="checkbox"] {
+    appearance: none;
+    height: 24px;
+    width: 24px;
+    background-color: #36536B25;
+    cursor: pointer;
+    display: grid;
+    place-content: center;
+}
+
+input[type="checkbox"]::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+
+    transform-origin: center;
+    background-image: url('/assets/shared/desktop/icon-check-white.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+input[type="checkbox"]:checked::before {
+    transform: scale(1);
+}
+
+input[type="checkbox"]:checked {
+    background-color: #BA4270;
+}
