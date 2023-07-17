@@ -18,10 +18,18 @@ export default function Home() {
               alt="cellphone"
               width={128}
               height={240}
+              className="md:hidden"
+            />
+            <Image
+              src="/assets/home/desktop/illustration-phone-mockup.svg"
+              alt="cellphone"
+              width={156}
+              height={300}
+              className="hidden md:block"
             />
           </div>
-          <div className="mx-6 mb-[80px]">
-            <h1 className="font-display text-[32px] text-center pb-[24px]">
+          <div className="mx-6 mb-[80px] md:mx-[98px] md:mb-[100px]">
+            <h1 className="font-display text-[32px] text-center pb-[24px] md:text-[48px] md:leading-[56px]">
               Start building with our APIs for absolutely free.
             </h1>
             <DemoReqForm />
@@ -37,8 +45,8 @@ export default function Home() {
         {/* Partner section */}
         <div>
           <div className="bg-[#1B262F] pt-[80px]">
-            <div>
-              <div className="flex justify-center items-center">
+            <div className="md:hidden">
+              <div className="flex justify-center items-center md:flex-none md:justify-normal">
                 <Image
                   src="/assets/shared/desktop/tesla-white.svg"
                   alt="payapi-logo"
@@ -87,8 +95,50 @@ export default function Home() {
                 />
               </div>
             </div>
+            <div className="flex-col justify-center items-center hidden md:block">
+              <div className="flex justify-between items-center mx-[119px] mb-[40px]">
+                <Image
+                  src="/assets/shared/desktop/tesla-white.svg"
+                  alt="payapi-logo"
+                  height={15}
+                  width={107}
+                />
+                <Image
+                  src="/assets/shared/desktop/microsoft-white.svg"
+                  alt="payapi-logo"
+                  height={26}
+                  width={120}
+                />
+                <Image
+                  src="/assets/shared/desktop/hewlett-packard-white.svg"
+                  alt="payapi-logo"
+                  height={22}
+                  width={115}
+                />
+              </div>
+              <div className="flex justify-between items-center mx-[119px]">
+                <Image
+                  src="/assets/shared/desktop/oracle-white.svg"
+                  alt="payapi-logo"
+                  height={14}
+                  width={108}
+                />
+                <Image
+                  src="/assets/shared/desktop/google-white.svg"
+                  alt="payapi-logo"
+                  height={22}
+                  width={115}
+                />
+                <Image
+                  src="/assets/shared/desktop/nvidia-white.svg"
+                  alt="payapi-logo"
+                  height={22}
+                  width={113}
+                />
+              </div>
+            </div>
             <div>
-              <div className="text-center mt-[60px] mx-6">
+              <div className="flex-col items-center text-center mt-[60px] mx-6 md:mx-[156px]">
                 <h2 className="text-[32px] text-[#FBFCFE] font-display leading-9">
                   Who we work with
                 </h2>
@@ -100,22 +150,32 @@ export default function Home() {
                 </p>
               </div>
               <div className="flex justify-center mt-[60px] pb-[80px]">
-                <button className="w-[129px] h-[48px] text-[#FBFCFE] border-[#FBFCFE] border-2 rounded-3xl hover:border-[#FBFCFE] hover:bg-[#FFFFFF] hover:text-[#1B262F]">
-                  About Us
-                </button>
+                <Link href="/about">
+                  <button className="w-[129px] h-[48px] text-[#FBFCFE] border-[#FBFCFE] border-2 rounded-3xl hover:border-[#FBFCFE] hover:bg-[#FFFFFF] hover:text-[#1B262F]">
+                    About Us
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
         </div>
 
         {/* Implement section */}
-        <div className="pt-20 pb-10 px-6">
+        <div className="pt-20 pb-10 px-6 md:px-[100px]">
           <div className="flex justify-center shadow-[25px_25px_80px_0_rgba(54, 83, 107, 0.3)]">
             <Image
               src="/assets/home/desktop/illustration-easy-to-implement.svg"
               alt="easy to implement"
               height={209}
               width={328}
+              className="md:hidden"
+            />
+            <Image
+              src="/assets/home/desktop/illustration-easy-to-implement.svg"
+              alt="easy to implement"
+              height={248}
+              width={410}
+              className="hidden md:block"
             />
           </div>
           <div className="text-center mt-12">
@@ -131,13 +191,21 @@ export default function Home() {
         </div>
 
         {/* Simple UI & UX section */}
-        <div className="mt-10 px-6">
+        <div className="mt-10 px-6 md:px-[100px]">
           <div className="flex justify-center">
             <Image
               src="/assets/home/desktop/illustration-simple-ui.svg"
               alt="easy to implement"
               height={290}
               width={328}
+              className="md:hidden"
+            />
+            <Image
+              src="/assets/home/desktop/illustration-simple-ui.svg"
+              alt="easy to implement"
+              height={320}
+              width={363}
+              className="hidden md:block"
             />
           </div>
           <div className="text-center mt-[50px] mb-10">
@@ -153,8 +221,8 @@ export default function Home() {
 
         {/* Benefits section */}
         <div className="px-6 py-10">
-          <div>
-            <div className="flex flex-col justify-center items-center text-center pb-12">
+          <div className="md:flex md:justify-center md:items-start md:gap-[10px]">
+            <div className="flex flex-col justify-center items-center text-center pb-12 md:pb-0">
               <Image
                 src="/assets/home/desktop/icon-personal-finances.svg"
                 alt="easy to implement"
@@ -170,7 +238,7 @@ export default function Home() {
                 reconcile activities in your account.
               </p>
             </div>
-            <div className="flex flex-col justify-center items-center text-center pb-12">
+            <div className="flex flex-col justify-center items-center text-center pb-12 md:pb-0">
               <Image
                 src="/assets/home/desktop/icon-banking-and-coverage.svg"
                 alt="easy to implement"
@@ -197,16 +265,18 @@ export default function Home() {
                 Consumer Payments
               </h4>
               <p className="text-[#6C8294]">
-                It&apos;s easier to set up secure bank payments with us through a
-                flow designed with the user experience in mind. Customers could
-                instantly authenticate their account.
+                It&apos;s easier to set up secure bank payments with us through
+                a flow designed with the user experience in mind. Customers
+                could instantly authenticate their account.
               </p>
             </div>
           </div>
         </div>
-        <div className='mt-10 mb-20'>
+        <div className="mt-10 mb-20">
           <div>
-            <h2 className='mb-[32px] text-center text-[#36536B] text-[32px] leading-9 font-display'>Ready to start?</h2>
+            <h2 className="mb-[32px] text-center text-[#36536B] text-[32px] leading-9 font-display">
+              Ready to start?
+            </h2>
             <DemoReqForm />
           </div>
         </div>
