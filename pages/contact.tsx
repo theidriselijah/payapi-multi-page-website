@@ -8,12 +8,12 @@ export default function Contact() {
     <div className="bg-[#EDF3F8]">
       <div>
         <NavBar />
-        <div className="px-6 pt-12">
-          <h1 className="text-[#36536B] font-display text-[32px] text-center leading-9">
-            Submit a help request and we&aposll get in touch shortly.
+        <div className="px-6 pt-12 md:px-[100px] md:pt-[80px]">
+          <h1 className="text-[#36536B] font-display text-[32px] text-center leading-9 md:text-[48px] md:leading-[56px]">
+            Submit a help request and we&apos;ll get in touch shortly.
           </h1>
         </div>
-        <div className="mx-6 mt-10 mb-6">
+        <div className="mx-6 mt-10 mb-6 md:mx-[162px] md:mt-[54px]">
           <form className="">
             <div className='flex flex-col justify-center items-center gap-y-[24px]'>
               <input
@@ -45,7 +45,7 @@ export default function Contact() {
                 placeholder="Message"
                 className="w-full h-[89px] px-[20px] border-b-[1px] border-[#36536B]/[.50] bg-[#EDF3F8] resize-none"
               />
-              <div className="flex justify-center items-center">
+              <div className="flex justify-center items-center mb-[24px]">
                 <div>
                   <input type="checkbox" id="subscribe" className="" />
                 </div>
@@ -67,10 +67,10 @@ export default function Contact() {
         </div>
         <div className="text-center mx-6">
           <div>
-            <h3 className="text-[#36536B] font-display text-[24px] leading-8 opacity-75 mb-8">
+            <h3 className="text-[#36536B] font-display text-[24px] leading-8 opacity-75 mb-8 md:mb-10 md:mx-[162px]">
               Join the thousands of innovators already building with us
             </h3>
-            <div>
+            <div className='md:hidden'>
               <div className="flex justify-center items-center">
                 <Image
                   src="/assets/shared/desktop/tesla.svg"
@@ -117,6 +117,48 @@ export default function Contact() {
                   height={22}
                   width={113}
                   className="ml-[28px]"
+                />
+              </div>
+            </div>
+            <div className="flex-col justify-center items-center hidden md:block">
+              <div className="flex justify-between items-center mx-[119px] mb-[40px]">
+                <Image
+                  src="/assets/shared/desktop/tesla.svg"
+                  alt="payapi-logo"
+                  height={15}
+                  width={107}
+                />
+                <Image
+                  src="/assets/shared/desktop/microsoft.svg"
+                  alt="payapi-logo"
+                  height={26}
+                  width={120}
+                />
+                <Image
+                  src="/assets/shared/desktop/hewlett-packard.svg"
+                  alt="payapi-logo"
+                  height={22}
+                  width={115}
+                />
+              </div>
+              <div className="flex justify-between items-center mx-[119px]">
+                <Image
+                  src="/assets/shared/desktop/oracle.svg"
+                  alt="payapi-logo"
+                  height={14}
+                  width={108}
+                />
+                <Image
+                  src="/assets/shared/desktop/google.svg"
+                  alt="payapi-logo"
+                  height={22}
+                  width={115}
+                />
+                <Image
+                  src="/assets/shared/desktop/nvidia.svg"
+                  alt="payapi-logo"
+                  height={22}
+                  width={113}
                 />
               </div>
             </div>
