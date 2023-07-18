@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Footer() {
   return (
-    <div className="flex flex-col justify-center items-center bg-[#1B262F] pb-10 pt-10 md:flex-row md:justify-between md:px-10">
+    <div className="flex flex-col justify-center items-center bg-[#1B262F] py-10 md:py-[31px] md:flex-row md:justify-between md:px-10">
       <div className='md:flex md:items-center'>
         <div className="mb-10 md:mb-0">
           <Image

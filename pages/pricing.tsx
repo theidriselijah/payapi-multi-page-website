@@ -12,17 +12,23 @@ export default function Pricing() {
           <h1 className="text-[#36536B] font-display text-[32px] leading-9 mt-12">
             Pricing
           </h1>
-          <div>
+          <div className="md:flex md:gap-[10px]">
             {/* Free Plan */}
             <div>
-              <h2 className="mt-12 mb-20 text-[#BA4270] font-display text-[24px]">
+              <h2 className="mt-12 mb-20 md:mb-[13px] text-[#BA4270] font-display text-[24px]">
                 Free Plan
               </h2>
+              <div className="md:mb-[19px] md:w-[223px] hidden md:block">
+                <p className="text-[#6C8294] font-public text-[15px] leading-7">
+                  Build and test using our core set of products with up to 100
+                  API requests
+                </p>
+              </div>
               <div>
                 <p className="text-[#36536B] font-display text-[56px] leading-[72px]">
                   $0.00
                 </p>
-                <div className="bg-[#36536B] w-[327px] h-[1px] mt-6 mb-5 opacity-25"></div>
+                <div className="bg-[#36536B] w-[223px] h-[1px] mt-6 mb-5 opacity-25"></div>
                 <div className="flex justify-center mb-6">
                   <ul>
                     <li className="my-1 flex items-center text-[#36536B] font-public text-[16px] leading-7">
@@ -97,7 +103,7 @@ export default function Pricing() {
                     </li>
                   </ul>
                 </div>
-                <div className="bg-[#36536B] w-[327px] h-[1px] mt-6 mb-6 opacity-25"></div>
+                <div className="bg-[#36536B] w-[223px] h-[1px] mt-6 mb-6 opacity-25"></div>
                 <button className="w-[168px] h-[48px] text-[#36536B] border-[#36536B] border-[1px] rounded-3xl mb-12 hover:border-[#36536B] hover:bg-[#36536B] hover:text-[#FFFFFF]">
                   Request Access
                 </button>
@@ -106,14 +112,20 @@ export default function Pricing() {
 
             {/* Basic Plan */}
             <div>
-              <h2 className="mt-12 mb-20 text-[#BA4270] font-display text-[24px]">
+              <h2 className="mt-12 mb-20 md:mb-[13px] text-[#BA4270] font-display text-[24px]">
                 Basic Plan
               </h2>
+              <div className="md:mb-[19px] md:w-[223px] hidden md:block">
+                <p className="text-[#6C8294] font-public text-[15px] leading-7">
+                  Launch your project with unlimited requests and no contractual
+                  minimums
+                </p>
+              </div>
               <div>
                 <p className="text-[#36536B] font-display text-[56px] leading-[72px]">
                   $249.00
                 </p>
-                <div className="bg-[#36536B] w-[327px] h-[1px] mt-6 mb-5 opacity-25"></div>
+                <div className="bg-[#36536B] w-[223px] h-[1px] mt-6 mb-5 opacity-25"></div>
                 <div className="flex justify-center mb-6">
                   <ul>
                     <li className="my-1 flex items-center text-[#36536B] font-public text-[16px] leading-7">
@@ -188,7 +200,7 @@ export default function Pricing() {
                     </li>
                   </ul>
                 </div>
-                <div className="bg-[#36536B] w-[327px] h-[1px] mt-6 mb-6 opacity-25"></div>
+                <div className="bg-[#36536B] w-[223px] h-[1px] mt-6 mb-6 opacity-25"></div>
                 <button className="w-[168px] h-[48px] text-[#36536B] border-[#36536B] border-[1px] rounded-3xl mb-12 hover:border-[#36536B] hover:bg-[#36536B] hover:text-[#FFFFFF]">
                   Request Access
                 </button>
@@ -197,14 +209,20 @@ export default function Pricing() {
 
             {/* Premium Plan */}
             <div>
-              <h2 className="mt-12 mb-20 text-[#BA4270] font-display text-[24px]">
+              <h2 className="mt-12 mb-20 md:mb-[13px] text-[#BA4270] font-display text-[24px]">
                 Premium Plan
               </h2>
+              <div className="md:mb-[19px] md:w-[223px] hidden md:block">
+                <p className="text-[#6C8294] font-public text-[15px] leading-7">
+                  Get tailored solutions, volume pricing, and dedicated support
+                  for your team
+                </p>
+              </div>
               <div>
                 <p className="text-[#36536B] font-display text-[56px] leading-[72px]">
                   $499.00
                 </p>
-                <div className="bg-[#36536B] w-[327px] h-[1px] mt-6 mb-5 opacity-25"></div>
+                <div className="bg-[#36536B] w-[223px] h-[1px] mt-6 mb-5 opacity-25"></div>
                 <div className="flex justify-center mb-6">
                   <ul>
                     <li className="my-1 flex items-center text-[#36536B] font-public text-[16px] leading-7">
@@ -279,7 +297,7 @@ export default function Pricing() {
                     </li>
                   </ul>
                 </div>
-                <div className="bg-[#36536B] w-[327px] h-[1px] mt-6 mb-6 opacity-25"></div>
+                <div className="bg-[#36536B] w-[223px] h-[1px] mt-6 mb-6 opacity-25"></div>
                 <button className="w-[168px] h-[48px] text-[#36536B] border-[#36536B] border-[1px] rounded-3xl mb-12 hover:border-[#36536B] hover:bg-[#36536B] hover:text-[#FFFFFF]">
                   Request Access
                 </button>
