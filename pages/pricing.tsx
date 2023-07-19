@@ -8,13 +8,13 @@ export default function Pricing() {
     <div className="bg-[#EDF3F8]">
       <div>
         <NavBar />
-        <div className="flex flex-col justify-center items-center text-center px-6">
-          <h1 className="text-[#36536B] font-display text-[32px] leading-9 mt-12">
+        <div className="flex flex-col justify-center items-center text-center px-6 lg:px-[165px]">
+          <h1 className="text-[#36536B] font-display text-[32px] leading-9 mt-12 lg:text-[56px] lg:leading-[56px] lg:mt-[82px]">
             Pricing
           </h1>
           <div className="md:flex md:gap-[10px]">
             {/* Free Plan */}
-            <div>
+            <div className='lg:flex lg:flex-col lg:justify-center lg:items-center'>
               <h2 className="mt-12 mb-20 md:mb-[13px] text-[#BA4270] font-display text-[24px]">
                 Free Plan
               </h2>
@@ -28,7 +28,7 @@ export default function Pricing() {
                 <p className="text-[#36536B] font-display text-[56px] leading-[72px]">
                   $0.00
                 </p>
-                <div className="bg-[#36536B] w-[223px] h-[1px] mt-6 mb-5 opacity-25"></div>
+                <div className="bg-[#36536B] w-[223px] h-[1px] mt-6 mb-5 opacity-25 lg:w-[350px]"></div>
                 <div className="flex justify-center mb-6">
                   <ul>
                     <li className="my-1 flex items-center text-[#36536B] font-public text-[16px] leading-7">
@@ -103,7 +103,7 @@ export default function Pricing() {
                     </li>
                   </ul>
                 </div>
-                <div className="bg-[#36536B] w-[223px] h-[1px] mt-6 mb-6 opacity-25"></div>
+                <div className="bg-[#36536B] w-[223px] h-[1px] mt-6 mb-6 opacity-25 lg:w-[350px]"></div>
                 <button className="w-[168px] h-[48px] text-[#36536B] border-[#36536B] border-[1px] rounded-3xl mb-12 hover:border-[#36536B] hover:bg-[#36536B] hover:text-[#FFFFFF]">
                   Request Access
                 </button>
@@ -111,7 +111,7 @@ export default function Pricing() {
             </div>
 
             {/* Basic Plan */}
-            <div>
+            <div className='lg:flex lg:flex-col lg:justify-center lg:items-center'>
               <h2 className="mt-12 mb-20 md:mb-[13px] text-[#BA4270] font-display text-[24px]">
                 Basic Plan
               </h2>
@@ -125,7 +125,7 @@ export default function Pricing() {
                 <p className="text-[#36536B] font-display text-[56px] leading-[72px]">
                   $249.00
                 </p>
-                <div className="bg-[#36536B] w-[223px] h-[1px] mt-6 mb-5 opacity-25"></div>
+                <div className="bg-[#36536B] w-[223px] h-[1px] mt-6 mb-5 opacity-25 lg:w-[350px]"></div>
                 <div className="flex justify-center mb-6">
                   <ul>
                     <li className="my-1 flex items-center text-[#36536B] font-public text-[16px] leading-7">
@@ -200,7 +200,7 @@ export default function Pricing() {
                     </li>
                   </ul>
                 </div>
-                <div className="bg-[#36536B] w-[223px] h-[1px] mt-6 mb-6 opacity-25"></div>
+                <div className="bg-[#36536B] w-[223px] h-[1px] mt-6 mb-6 opacity-25 lg:w-[350px]"></div>
                 <button className="w-[168px] h-[48px] text-[#36536B] border-[#36536B] border-[1px] rounded-3xl mb-12 hover:border-[#36536B] hover:bg-[#36536B] hover:text-[#FFFFFF]">
                   Request Access
                 </button>
@@ -208,7 +208,7 @@ export default function Pricing() {
             </div>
 
             {/* Premium Plan */}
-            <div>
+            <div className='lg:flex lg:flex-col lg:justify-center lg:items-center'>
               <h2 className="mt-12 mb-20 md:mb-[13px] text-[#BA4270] font-display text-[24px]">
                 Premium Plan
               </h2>
@@ -222,7 +222,7 @@ export default function Pricing() {
                 <p className="text-[#36536B] font-display text-[56px] leading-[72px]">
                   $499.00
                 </p>
-                <div className="bg-[#36536B] w-[223px] h-[1px] mt-6 mb-5 opacity-25"></div>
+                <div className="bg-[#36536B] w-[223px] h-[1px] mt-6 mb-5 opacity-25 lg:w-[350px]"></div>
                 <div className="flex justify-center mb-6">
                   <ul>
                     <li className="my-1 flex items-center text-[#36536B] font-public text-[16px] leading-7">
@@ -297,7 +297,7 @@ export default function Pricing() {
                     </li>
                   </ul>
                 </div>
-                <div className="bg-[#36536B] w-[223px] h-[1px] mt-6 mb-6 opacity-25"></div>
+                <div className="bg-[#36536B] w-[223px] h-[1px] mt-6 mb-6 opacity-25 lg:w-[350px]"></div>
                 <button className="w-[168px] h-[48px] text-[#36536B] border-[#36536B] border-[1px] rounded-3xl mb-12 hover:border-[#36536B] hover:bg-[#36536B] hover:text-[#FFFFFF]">
                   Request Access
                 </button>
@@ -306,7 +306,7 @@ export default function Pricing() {
           </div>
         </div>
         <div className="mt-[32px] mb-20">
-          <div>
+          <div className='lg:flex lg:justify-around lg:items-center'>
             <h2 className="mb-[32px] text-center text-[#36536B] text-[32px] leading-9 font-display">
               Ready to start?
             </h2>
