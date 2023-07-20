@@ -2,8 +2,39 @@ import DemoReqForm from '@/components/DemoReqForm'
 import Footer from '@/components/Footer'
 import NavBar from '@/components/NavBar'
 import Image from 'next/image'
+import { useState } from 'react'
 
 export default function Contact() {
+
+  const initialFormData = {
+    name: "",
+    email: "",
+    companyName: "",
+    title: "",
+    message: "",
+    isSubscribed: false,
+  }
+
+  const [formData, setFormData] = useState(initialFormData)
+
+  function handleChange(event: any) {
+    const { name, value, type, checked } = event.target
+
+    setFormData(prevFormData => {
+      return {
+        ...prevFormData,
+        [name]: type === "checkbox" ? checked : value
+      }
+    })
+  }
+
+  function handleSubmit(event: any) {
+    event.preventDefault()
+    console.log(formData)
+
+    setFormData(initialFormData)
+  }
+
   return (
     <div className="bg-[#EDF3F8]">
       <div>
@@ -15,40 +46,50 @@ export default function Contact() {
         </div>
         <div className="lg:flex lg:justify-center lg:items-center lg:px-[165px] lg:gap-[124px]">
           <div className="mx-6 mt-10 mb-6 md:mx-[162px] md:mt-[54px] lg:mx-0">
-            <form className="">
+            <form onSubmit={handleSubmit}>
               <div className="flex flex-col justify-center items-center gap-y-[24px]">
                 <input
                   type="text"
                   name="name"
                   placeholder="Name"
                   className="w-full h-[42px] px-[20px] pb-[17px] border-b-[1px] border-[#36536B]/[.50] bg-[#EDF3F8]"
+                  onChange={handleChange}
+                  value={formData.name}
                 />
                 <input
                   type="email"
                   name="email"
                   placeholder="Email Address"
                   className="w-full h-[42px] px-[20px] pb-[17px] border-b-[1px] border-[#36536B]/[.50] bg-[#EDF3F8]"
+                  onChange={handleChange}
+                  value={formData.email}
                 />
                 <input
                   type="text"
-                  name="company-name"
+                  name="companyName"
                   placeholder="Company Name"
                   className="w-full h-[42px] px-[20px] pb-[17px] border-b-[1px] border-[#36536B]/[.50] bg-[#EDF3F8]"
+                  onChange={handleChange}
+                  value={formData.companyName}
                 />
                 <input
                   type="text"
                   name="title"
                   placeholder="Title"
                   className="w-full h-[42px] px-[20px] pb-[17px] border-b-[1px] border-[#36536B]/[.50] bg-[#EDF3F8]"
+                  onChange={handleChange}
+                  value={formData.title}
                 />
                 <textarea
                   name="message"
                   placeholder="Message"
                   className="w-full h-[89px] px-[20px] border-b-[1px] border-[#36536B]/[.50] bg-[#EDF3F8] resize-none"
+                  onChange={handleChange}
+                  value={formData.message}
                 />
                 <div className="flex justify-center items-center mb-[24px]">
                   <div>
-                    <input type="checkbox" id="subscribe" className="" />
+                    <input type="checkbox" id="subscribe" name="isSubscribed" checked={formData.isSubscribed} onClick={handleChange}/>
                   </div>
                   <div className="ml-[32px]">
                     <label
