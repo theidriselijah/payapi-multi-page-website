@@ -1,12 +1,17 @@
 import DemoReqForm from '@/components/DemoReqForm'
 import Footer from '@/components/Footer'
 import NavBar from '@/components/NavBar'
+import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Home() {
   return (
     <div className="bg-[#EDF3F8] ">
+      <Head>
+        <title>PayAPI Multi-Page Website</title>
+        
+      </Head>
       <div className="bg-[url('/assets/shared/desktop/bg-pattern-circle.svg')] bg-no-repeat bg-[center_-16%] bg-auto md:bg-[center_-20%] lg:bg-[center_-20%]">
         <NavBar />
 

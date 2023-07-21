@@ -1,11 +1,13 @@
 import DemoReqForm from '@/components/DemoReqForm'
 import Footer from '@/components/Footer'
 import NavBar from '@/components/NavBar'
+import Head from 'next/head'
 import Image from 'next/image'
 
 export default function Pricing() {
   return (
     <div className="bg-[#EDF3F8]">
+
       <div className="bg-[url('/assets/shared/desktop/bg-pattern-circle.svg')] bg-no-repeat bg-[top_-33%_left_-10%] bg-auto md:bg-[top_-130%_right_3500%]">
         <NavBar />
         <div className="flex flex-col justify-center items-center text-center px-6 lg:px-[165px]">
@@ -14,7 +16,7 @@ export default function Pricing() {
           </h1>
           <div className="md:flex md:gap-[10px]">
             {/* Free Plan */}
-            <div className='lg:flex lg:flex-col lg:justify-center lg:items-center'>
+            <div className="lg:flex lg:flex-col lg:justify-center lg:items-center">
               <h2 className="mt-12 mb-20 md:mb-[13px] text-[#BA4270] font-display text-[24px]">
                 Free Plan
               </h2>
@@ -111,7 +113,7 @@ export default function Pricing() {
             </div>
 
             {/* Basic Plan */}
-            <div className='lg:flex lg:flex-col lg:justify-center lg:items-center'>
+            <div className="lg:flex lg:flex-col lg:justify-center lg:items-center">
               <h2 className="mt-12 mb-20 md:mb-[13px] text-[#BA4270] font-display text-[24px]">
                 Basic Plan
               </h2>
@@ -208,7 +210,7 @@ export default function Pricing() {
             </div>
 
             {/* Premium Plan */}
-            <div className='lg:flex lg:flex-col lg:justify-center lg:items-center'>
+            <div className="lg:flex lg:flex-col lg:justify-center lg:items-center">
               <h2 className="mt-12 mb-20 md:mb-[13px] text-[#BA4270] font-display text-[24px]">
                 Premium Plan
               </h2>
@@ -306,7 +308,7 @@ export default function Pricing() {
           </div>
         </div>
         <div className="mt-[32px] mb-20">
-          <div className='lg:flex lg:justify-around lg:items-center'>
+          <div className="lg:flex lg:justify-around lg:items-center">
             <h2 className="mb-[32px] text-center text-[#36536B] text-[32px] leading-9 font-display">
               Ready to start?
             </h2>
