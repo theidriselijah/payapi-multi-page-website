@@ -21,15 +21,14 @@ export default function DemoReqForm() {
   function handleSubmit(event: any) {
     event.preventDefault()
     console.log(inputData)
-
     setInputData(initialInputData)
   }
 
   return (
-    <div className="md:mb-6">
+    <div className="md:mb-6 z-[100]">
       <div className="flex flex-col justify-center items-center">
-        <div className="relative flex flex-col md:flex md:items-center">
-          <form onSubmit={handleSubmit}>
+        <div>
+          <form onSubmit={handleSubmit} className="relative flex flex-col md:flex md:items-center">
             <input
               type="email"
               name="email"

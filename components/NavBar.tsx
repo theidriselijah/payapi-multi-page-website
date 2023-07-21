@@ -10,7 +10,7 @@ export default function NavBar() {
   }
 
   return (
-    <nav className="flex justify-between items-center pt-10 px-6 md:px-10 md:pt-[45px] lg:px-[165px]">
+    <nav className="flex justify-between items-center pt-10 px-6 md:px-10 md:pt-[45px] lg:px-[165px] z-[1000]">
       <div className="md:flex md:justify-center md:items-center">
         <div>
           <Link href="/">
@@ -61,7 +61,7 @@ export default function NavBar() {
 
       {/* Slide-over menu content */}
       {isMenuOpen && (
-        <div className="fixed top-0 left-[75px] right-0 bottom-0 bg-[#1B262F] z-10 px-[24px]">
+        <div className="fixed top-0 left-[75px] right-0 bottom-0 bg-[#1B262F] px-[24px] z-[1000]">
           <div
             className="mt-[48px] mb-[24px] flex justify-end"
             onClick={toggleMenu}

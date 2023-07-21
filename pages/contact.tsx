@@ -52,40 +52,45 @@ export default function Contact() {
                   type="text"
                   name="name"
                   placeholder="Name"
-                  className="w-full h-[42px] px-[20px] pb-[17px] border-b-[1px] border-[#36536B]/[.50] bg-[#EDF3F8]"
+                  className="w-full h-[42px] px-[20px] pb-[17px] border-b-[1px] border-[#36536B]/[.50] bg-[#EDF3F8] focus:outline-none focus:border-[#36536B] focus:placeholder:text-[#36536B] focus:invalid:border-[#FF0000] focus:invalid:placeholder:text-[#FF0000]"
                   onChange={handleChange}
                   value={formData.name}
+                  required
                 />
                 <input
                   type="email"
                   name="email"
                   placeholder="Email Address"
-                  className="w-full h-[42px] px-[20px] pb-[17px] border-b-[1px] border-[#36536B]/[.50] bg-[#EDF3F8]"
+                  className="w-full h-[42px] px-[20px] pb-[17px] border-b-[1px] border-[#36536B]/[.50] bg-[#EDF3F8] focus:outline-none focus:border-[#36536B] focus:placeholder:text-[#36536B] focus:invalid:border-[#FF0000] focus:invalid:placeholder:text-[#FF0000]"
                   onChange={handleChange}
                   value={formData.email}
+                  required
                 />
                 <input
                   type="text"
                   name="companyName"
                   placeholder="Company Name"
-                  className="w-full h-[42px] px-[20px] pb-[17px] border-b-[1px] border-[#36536B]/[.50] bg-[#EDF3F8]"
+                  className="w-full h-[42px] px-[20px] pb-[17px] border-b-[1px] border-[#36536B]/[.50] bg-[#EDF3F8] focus:outline-none focus:border-[#36536B] focus:placeholder:text-[#36536B] focus:invalid:border-[#FF0000] focus:invalid:placeholder:text-[#FF0000]"
                   onChange={handleChange}
                   value={formData.companyName}
+                  required
                 />
                 <input
                   type="text"
                   name="title"
                   placeholder="Title"
-                  className="w-full h-[42px] px-[20px] pb-[17px] border-b-[1px] border-[#36536B]/[.50] bg-[#EDF3F8]"
+                  className="w-full h-[42px] px-[20px] pb-[17px] border-b-[1px] border-[#36536B]/[.50] bg-[#EDF3F8] focus:outline-none focus:border-[#36536B] focus:placeholder:text-[#36536B] focus:invalid:border-[#FF0000] focus:invalid:placeholder:text-[#FF0000]"
                   onChange={handleChange}
                   value={formData.title}
+                  required
                 />
                 <textarea
                   name="message"
                   placeholder="Message"
-                  className="w-full h-[89px] px-[20px] border-b-[1px] border-[#36536B]/[.50] bg-[#EDF3F8] resize-none"
+                  className="w-full h-[89px] px-[20px] border-b-[1px] border-[#36536B]/[.50] bg-[#EDF3F8] resize-none focus:outline-none focus:border-[#36536B] focus:placeholder:text-[#36536B] focus:invalid:border-[#FF0000] focus:invalid:placeholder:text-[#FF0000]"
                   onChange={handleChange}
                   value={formData.message}
+                  required
                 />
                 <div className="flex justify-center items-center mb-[24px]">
                   <div>

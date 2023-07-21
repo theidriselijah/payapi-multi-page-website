@@ -18,21 +18,21 @@ export default function Home() {
               alt="cellphone"
               width={128}
               height={240}
-              className="md:hidden"
+              className="md:hidden z-10"
             />
             <Image
               src="/assets/home/desktop/illustration-phone-mockup.svg"
               alt="cellphone"
               width={156}
               height={300}
-              className="hidden md:block lg:hidden"
+              className="hidden md:block lg:hidden z-10"
             />
             <Image
               src="/assets/home/desktop/illustration-phone-mockup.svg"
               alt="cellphone"
               width={258}
               height={500}
-              className="hidden lg:block"
+              className="hidden lg:block z-10"
             />
           </div>
           <div className="mx-6 mb-[80px] md:mx-[98px] md:mb-[100px] lg:mx-0 lg:mb-0 lg:order-1">
