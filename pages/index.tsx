@@ -257,9 +257,9 @@ export default function Home() {
                 height={106}
                 width={106}
               />
-              <h4 className="text-[#36536B] text-[18px] font-public font-bold leading-[25px] mt-[33px] mb-4">
+              <h2 className="text-[#36536B] text-[18px] font-public font-bold leading-[25px] mt-[33px] mb-4">
                 Personal Finances
-              </h4>
+              </h2>
               <p className="text-[#6C8294]">
                 Consolidate financial data from multiple sources and categorize
                 transactions up to 2 years of history. Analyze reports to
@@ -273,9 +273,9 @@ export default function Home() {
                 height={106}
                 width={106}
               />
-              <h4 className="text-[#36536B] text-[18px] font-public font-bold leading-[25px] mt-[33px] mb-4">
+              <h2 className="text-[#36536B] text-[18px] font-public font-bold leading-[25px] mt-[33px] mb-4">
                 Banking & Coverage
-              </h4>
+              </h2>
               <p className="text-[#6C8294]">
                 With our platform, you can speed up account onboarding and
                 support ongoing payments for checking, savings, credit card, and
@@ -289,9 +289,9 @@ export default function Home() {
                 height={106}
                 width={106}
               />
-              <h4 className="text-[#36536B] text-[18px] font-public font-bold leading-[25px] mt-[33px] mb-4">
+              <h2 className="text-[#36536B] text-[18px] font-public font-bold leading-[25px] mt-[33px] mb-4">
                 Consumer Payments
-              </h4>
+              </h2>
               <p className="text-[#6C8294]">
                 It&apos;s easier to set up secure bank payments with us through
                 a flow designed with the user experience in mind. Customers
