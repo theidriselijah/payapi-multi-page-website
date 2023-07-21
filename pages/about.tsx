@@ -6,7 +6,7 @@ import Image from 'next/image'
 export default function About() {
   return (
     <div className="bg-[#EDF3F8]">
-      <div>
+      <div className="bg-[url('/assets/shared/desktop/bg-pattern-circle.svg')] bg-no-repeat bg-[top_-33%_left_-10%] bg-auto md:bg-[top_-40%_right_4000%]">
         <NavBar />
         <div className="text-center mx-6 md:mx-10 mt-12 md:mt-[80px] lg:mx-0 lg:mt-[82px]">
           <div className='lg:mx-[260px]'>

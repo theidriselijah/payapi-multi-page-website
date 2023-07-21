@@ -6,7 +6,7 @@ import Image from 'next/image'
 export default function Pricing() {
   return (
     <div className="bg-[#EDF3F8]">
-      <div>
+      <div className="bg-[url('/assets/shared/desktop/bg-pattern-circle.svg')] bg-no-repeat bg-[top_-33%_left_-10%] bg-auto md:bg-[top_-130%_right_3500%]">
         <NavBar />
         <div className="flex flex-col justify-center items-center text-center px-6 lg:px-[165px]">
           <h1 className="text-[#36536B] font-display text-[32px] leading-9 mt-12 lg:text-[56px] lg:leading-[56px] lg:mt-[82px]">

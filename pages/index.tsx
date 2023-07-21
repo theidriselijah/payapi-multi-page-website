@@ -6,8 +6,8 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className="bg-[#EDF3F8]">
-      <div>
+    <div className="bg-[#EDF3F8] ">
+      <div className="bg-[url('/assets/shared/desktop/bg-pattern-circle.svg')] bg-no-repeat bg-[center_-16%] bg-auto md:bg-[center_-20%] lg:bg-[center_-20%]">
         <NavBar />
 
         {/* Hero section */}
@@ -51,7 +51,7 @@ export default function Home() {
 
         {/* Partner section */}
         <div>
-          <div className="bg-[#1B262F] pt-[80px] lg:py-[100px] lg:flex lg:justify-around lg:items-center">
+          <div className="bg-[#1B262F] pt-[80px] lg:py-[100px] lg:flex lg:justify-around lg:items-center bg-[url('/assets/shared/desktop/bg-pattern-circle.svg')] bg-no-repeat bg-[center_top_730%] bg-auto">
             <div className="lg:order-2">
               <div className="md:hidden">
                 <div className="flex justify-center items-center md:flex-none md:justify-normal">

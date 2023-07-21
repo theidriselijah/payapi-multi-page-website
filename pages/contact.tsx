@@ -37,7 +37,7 @@ export default function Contact() {
 
   return (
     <div className="bg-[#EDF3F8]">
-      <div>
+      <div className="bg-[url('/assets/shared/desktop/bg-pattern-circle.svg')] bg-no-repeat bg-[top_-60%_left_-15%] bg-auto md:bg-[top_-65%_right_4000%]">
         <NavBar />
         <div className="px-6 pt-12 md:px-[100px] md:pt-[80px] lg:px-[165px]">
           <h1 className="text-[#36536B] font-display text-[32px] text-center leading-9 md:text-[48px] md:leading-[56px] lg:text-[56px]  lg:px-[100px]">
